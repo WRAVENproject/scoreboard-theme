@@ -9,3 +9,14 @@ body {
   color: var(--fg);
   font-family: system-ui, sans-serif;
 }
+
+.scoreboard table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.scoreboard th,
+.scoreboard td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid #30363d;
+}
