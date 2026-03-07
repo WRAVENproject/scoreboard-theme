@@ -20,3 +20,13 @@ body {
   padding: 0.5rem 0.75rem;
   border-bottom: 1px solid #30363d;
 }
+
+.challenge-button {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+}
+
+.challenge-button.solved {
+  border-color: var(--accent);
+}
